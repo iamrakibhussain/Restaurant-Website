@@ -1,0 +1,116 @@
+export const fallbackMenuItems = [
+  {
+    id: 1,
+    category: 'Appetizers',
+    name: 'Crispy Calamari',
+    description: 'Lightly fried calamari served with zesty marinara and herb aioli.',
+    price: '14.00',
+    image_url: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80',
+    is_featured: true,
+  },
+  {
+    id: 2,
+    category: 'Appetizers',
+    name: 'Bruschetta',
+    description: 'Toasted sourdough topped with tomatoes, basil, garlic, and olive oil.',
+    price: '10.00',
+    image_url: 'https://images.unsplash.com/photo-1506280754576-f6fa8a873550?auto=format&fit=crop&w=900&q=80',
+    is_featured: false,
+  },
+  {
+    id: 3,
+    category: 'Main Courses',
+    name: 'Grilled Salmon',
+    description: 'Perfectly grilled salmon with asparagus, lemon butter, and sea salt.',
+    price: '22.00',
+    image_url: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80',
+    is_featured: true,
+  },
+  {
+    id: 4,
+    category: 'Main Courses',
+    name: 'Filet Mignon',
+    description: 'Tender 8oz filet with creamy mashed potatoes and red wine reduction.',
+    price: '35.00',
+    image_url: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80',
+    is_featured: true,
+  },
+  {
+    id: 5,
+    category: 'Main Courses',
+    name: 'Lobster Risotto',
+    description: 'Creamy Arborio risotto with butter-poached lobster and parmesan.',
+    price: '28.00',
+    image_url: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80',
+    is_featured: false,
+  },
+  {
+    id: 6,
+    category: 'Desserts',
+    name: 'Tiramisu',
+    description: 'Classic coffee-soaked layers with mascarpone cream and cocoa dust.',
+    price: '9.00',
+    image_url: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80',
+    is_featured: true,
+  },
+  {
+    id: 7,
+    category: 'Desserts',
+    name: 'Chocolate Lava Cake',
+    description: 'Warm molten chocolate center served with vanilla bean gelato.',
+    price: '10.00',
+    image_url: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80',
+    is_featured: false,
+  },
+];
+
+export const fallbackTestimonials = [
+  {
+    id: 1,
+    customer_name: 'Jane Doe',
+    quote: 'The food was absolutely divine. Every course felt curated and memorable.',
+    avatar_url: 'https://randomuser.me/api/portraits/women/45.jpg',
+    rating: 5,
+  },
+  {
+    id: 2,
+    customer_name: 'John Smith',
+    quote: 'Exceptional service and atmosphere. The filet mignon was cooked perfectly.',
+    avatar_url: 'https://randomuser.me/api/portraits/men/32.jpg',
+    rating: 5,
+  },
+  {
+    id: 3,
+    customer_name: 'Ariana Patel',
+    quote: 'Elegant without feeling stiff. It has become our favorite dinner spot.',
+    avatar_url: 'https://randomuser.me/api/portraits/women/68.jpg',
+    rating: 5,
+  },
+];
+
+export const fallbackGalleryImages = [
+  {
+    id: 1,
+    title: 'Signature Steak',
+    image_url: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80',
+    alt_text: 'Plated steak on a dark table',
+  },
+  {
+    id: 2,
+    title: 'Dining Room',
+    image_url: 'https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?auto=format&fit=crop&w=900&q=80',
+    alt_text: 'Restaurant dining interior with warm lights',
+  },
+  {
+    id: 3,
+    title: 'Fresh Pasta',
+    image_url: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=80',
+    alt_text: 'Fresh pasta served on white plate',
+  },
+  {
+    id: 4,
+    title: 'Seasonal Dessert',
+    image_url: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80',
+    alt_text: 'Dessert with berries and cream',
+  },
+];
